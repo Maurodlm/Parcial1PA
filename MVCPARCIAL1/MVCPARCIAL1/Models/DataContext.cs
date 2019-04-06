@@ -12,5 +12,7 @@ namespace MVCPARCIAL1.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVCPARCIAL1.Models.MauroHernandezFriend> MauroHernandezFriends { get; set; }
     }
 }
